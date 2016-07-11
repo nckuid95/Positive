@@ -93,13 +93,13 @@
 			
 			if(values >= 10 && values <= 30) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E6%B4%BB%E5%8B%95%E4%BD%8E.html";
+				window.location.href = "../結果/活動量低.html";
 			} else if (values > 30 && values <= 42) {
 				alert(resultmsg);
 				window.location.href = "../結果/活動中庸.html";
 			} else if (values > 42 && values <= 78) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E6%B4%BB%E5%8B%95%E9%AB%98.html";
+				window.location.href = "../結果/活動量高.html";
 			}
 		}
     });
