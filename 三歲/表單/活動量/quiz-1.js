@@ -15,7 +15,7 @@
 			!$("input[name='q12']:checked").val() ||
 			!$("input[name='q13']:checked").val()           
 		) {            
-			alert("You're not done yet!");        
+			alert("你還沒完成測驗喔");        
 		} else {			
 			var values = parseInt(0);
 			for(i = 1; i <= 13; i++) {
@@ -96,7 +96,7 @@
 				window.location.href = "../結果/%E6%B4%BB%E5%8B%95%E4%BD%8E.html";
 			} else if (values > 30 && values <= 42) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E4%B8%AD%E5%BA%B8.html";
+				window.location.href = "../結果/活動中庸.html";
 			} else if (values > 42 && values <= 78) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E6%B4%BB%E5%8B%95%E9%AB%98.html";

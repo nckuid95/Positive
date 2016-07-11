@@ -12,7 +12,7 @@
 			!$("input[name='q9']:checked").val() ||            
 			!$("input[name='q10']:checked").val()            
 		) {            
-			alert("You're not done yet!");        
+			alert("你還沒完成測驗喔");        
 		} else {			
 			var values = parseInt(0);
 			for(i = 1; i <= 10; i++) {
@@ -93,7 +93,7 @@
 				window.location.href = "../結果/%E5%8F%8D%E6%87%89%E5%BE%AE%E5%BC%B1.html";
 			} else if (values > 30 && values <= 45) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E4%B8%AD%E5%BA%B8.html";
+				window.location.href = "../結果/反應中庸.html";
 			} else if (values > 45 && values <= 60) {
 				alert(resultmsg);
 				window.location.href = "../結果/反應激烈.html";

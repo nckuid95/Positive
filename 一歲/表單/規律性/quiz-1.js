@@ -14,7 +14,7 @@
 			!$("input[name='q11']:checked").val() ||            
 			!$("input[name='q12']:checked").val()             
 		) {            
-			alert("You're not done yet!");        
+			alert("你還沒完成測驗喔");        
 		} else {			
 			var values = parseInt(0);
 			for(i = 1; i <= 12; i++) {
@@ -95,7 +95,7 @@
 				window.location.href = "../結果/%E8%A6%8F%E5%BE%8B%E6%80%A7%E9%AB%98.html";
 			} else if (values > 24 && values <= 37) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E4%B8%AD%E5%BA%B8.html";
+				window.location.href = "../結果/規律性中庸.html";
 			} else if (values > 37&& values <= 72) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E8%A6%8F%E5%BE%8B%E6%80%A7%E4%BD%8E.html";

@@ -12,7 +12,7 @@
 			!$("input[name='q9']:checked").val() ||            
 			!$("input[name='q10']:checked").val()            
 		) {            
-			alert("You're not done yet!");        
+			alert("你還沒完成測驗喔");        
 		} else {			
 			var values = parseInt(0);
 			for(i = 1; i <= 10; i++) {
@@ -90,13 +90,13 @@
 			
 			if(values >= 10 && values <= 33) {
 				alert(resultmsg);
-				window.location.href = "../結果/敏感度高.html";
+				window.location.href = "../結果/敏感度低.html";
 			} else if (values > 33 && values <= 45) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E4%B8%AD%E5%BA%B8.html";
+				window.location.href = "../結果/敏感度中庸.html";
 			} else if (values > 45 && values <= 60) {
 				alert(resultmsg);
-				window.location.href = "../結果/敏感度低.html";
+				window.location.href = "../結果/敏感度高.html";
 			}
 		}
     });

@@ -10,7 +10,7 @@
 			!$("input[name='q7']:checked").val() ||            
 			!$("input[name='q8']:checked").val()           
 		) {            
-			alert("You're not done yet!");        
+			alert("你還沒完成測驗喔");        
 		} else {			
 			var values = parseInt(0);
 			for(i = 1; i <= 8; i++) {
@@ -91,7 +91,7 @@
 				window.location.href = "../結果/%E5%A0%85%E6%8C%81%E5%BA%A6%E9%AB%98.html";
 			} else if (values > 21 && values <= 38) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E4%B8%AD%E5%BA%B8.html";
+				window.location.href = "../結果/堅持度中庸.html";
 			} else if (values > 38 && values <= 60) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E5%A0%85%E6%8C%81%E5%BA%A6%E4%BD%8E.html";

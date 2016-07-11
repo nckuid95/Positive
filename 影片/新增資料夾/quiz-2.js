@@ -3,7 +3,7 @@ $(document).ready(function()
 
 if (!$("input[@name=q1]:checked").val()     
 ) {            
-alert("You're not done yet!");        
+alert("你還沒完成測驗喔");        
 }  
 
      

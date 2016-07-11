@@ -13,7 +13,7 @@
 			!$("input[name='q10']:checked").val() ||              
 			!$("input[name='q11']:checked").val()            
 		) {            
-			alert("You're not done yet!");        
+			alert("你還沒完成測驗喔");        
 		} else {			
 			var values = parseInt(0);
 			for(i = 1; i <= 11; i++) {
@@ -94,7 +94,7 @@
 				window.location.href = "../結果/%E8%B6%A8%E9%81%BF%E6%80%A7%E5%81%8F%E8%B6%A8.html";
 			} else if (values > 21 && values <= 41) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E4%B8%AD%E5%BA%B8.html";
+				window.location.href = "../結果/趨避性中庸.html";
 			} else if (values > 41 && values <= 66) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E8%B6%A8%E9%81%BF%E6%80%A7%E5%81%8F%E9%81%BF.html";

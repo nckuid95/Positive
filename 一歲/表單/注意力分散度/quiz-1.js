@@ -12,7 +12,7 @@
 			!$("input[name='q9']:checked").val() ||            
 			!$("input[name='q10']:checked").val()            
 		) {            
-			alert("You're not done yet!");        
+			alert("你還沒完成測驗喔");        
 		} else {			
 			var values = parseInt(0);
 			for(i = 1; i <= 10; i++) {
@@ -93,7 +93,7 @@
 				window.location.href = "../結果/%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%98%93%E5%88%86%E6%95%A3.html";
 			} else if (values > 21 && values <= 34) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E4%B8%AD%E5%BA%B8.html";
+				window.location.href = "../結果/注意力中庸.html";
 			} else if (values > 34 && values <= 60) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E6%B3%A8%E6%84%8F%E5%8A%9B%E4%B8%8D%E6%98%93%E5%88%86%E6%95%A3.html";

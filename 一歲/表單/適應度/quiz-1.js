@@ -13,7 +13,7 @@
 			!$("input[name='q10']:checked").val() ||           
 			!$("input[name='q11']:checked").val()            
 		) {            
-			alert("You're not done yet!");        
+			alert("你還沒完成測驗喔");        
 		} else {			
 			var values = parseInt(0);
 			for(i = 1; i <= 11; i++) {
@@ -94,7 +94,7 @@
 				window.location.href = "../結果/%E9%81%A9%E6%87%89%E5%BA%A6%E9%AB%98.html";
 			} else if (values > 18 && values <= 31) {
 				alert(resultmsg);
-				window.location.href = "../結果/%E4%B8%AD%E5%BA%B8.html";
+				window.location.href = "../結果/適應度中庸.html";
 			} else if (values > 31 && values <= 66) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E9%81%A9%E6%87%89%E5%BA%A6%E4%BD%8E.html";
