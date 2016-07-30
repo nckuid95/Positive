@@ -13,7 +13,7 @@ body {
  }
  </style>
 
-<!--按鈕位置的指令-->
+<!--
 <style type='text/css'  >
   .ank {
 	 position:absolute;
@@ -99,7 +99,7 @@ body {
 
     
     
-  </style>
+  </style>  -->
   
 
 <meta charset="utf-8">
@@ -119,8 +119,23 @@ body {
 
 
 
-<a href="index2.html">
-<img src="img/首頁part1.png">
+<a href="index2.html" title="首頁底圖">
+<img  name="首頁part1" alt="" src="img/首頁part1.png " 
+style="position:absolute;
+       z-index:1;">
+</a>
+
+<a href="index2.html" title="測試超連結">
+<img name="img02" alt="" src="測驗img/首頁按鈕前.png"              
+             onmouseout="this.src='測驗img/首頁按鈕前.png'"
+             onmouseover="this.src='測驗img/首頁按鈕後.png'"
+             onclick="setBanner(); showFlag(); "
+style="position:absolute;
+    top:550px;
+    margin-left:45%; 
+    z-index:3;
+    "
+> 
 </a>
 
 
