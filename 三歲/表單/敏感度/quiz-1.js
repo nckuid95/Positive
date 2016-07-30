@@ -85,16 +85,16 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "You got " + values + " points";
+			var resultmsg = "您的測驗結果為" + values + "點";
 			console.log(resultmsg);
 			
-			if(values >= 10 && values <= 33) {
+			if(values >= 10 && values <= 30) {
 				alert(resultmsg);
 				window.location.href = "../結果/敏感度低.html";
-			} else if (values > 33 && values <= 45) {
+			} else if (values > 30 && values <= 46) {
 				alert(resultmsg);
 				window.location.href = "../結果/敏感度中庸.html";
-			} else if (values > 45 && values <= 60) {
+			} else if (values > 46 && values <= 60) {
 				alert(resultmsg);
 				window.location.href = "../結果/敏感度高.html";
 			}

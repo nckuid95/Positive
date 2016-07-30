@@ -83,16 +83,16 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "You got " + values + " points";
+			var resultmsg = "您的測驗結果為" + values + "點";
 			console.log(resultmsg);
 			
-			if(values >= 8 && values <= 28) {
+			if(values >= 8 && values <= 29) {
 				alert(resultmsg);
 				window.location.href = "../結果/趨避性偏避.html";
-			} else if (values > 28 && values <= 41) {
+			} else if (values > 29 && values <= 42) {
 				alert(resultmsg);
 				window.location.href = "../結果/趨避性中庸.html";
-			} else if (values > 41 && values <= 56) {
+			} else if (values > 42 && values <= 56) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E8%B6%A8%E9%81%BF%E6%80%A7%E5%81%8F%E8%B6%A8.html";
 			}

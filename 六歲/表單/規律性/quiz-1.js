@@ -83,13 +83,13 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "You got " + values + " points";
+			var resultmsg = "您的測驗結果為" + values + "點";
 			console.log(resultmsg);
 			
-			if(values >= 8 && values <= 25) {
+			if(values >= 8 && values <= 29) {
 				alert(resultmsg);
 				window.location.href = "../結果/規律性低.html";
-			} else if (values > 25 && values <= 41) {
+			} else if (values > 29 && values <= 41) {
 				alert(resultmsg);
 				window.location.href = "../結果/規律性中庸.html";
 			} else if (values > 41 && values <= 56) {

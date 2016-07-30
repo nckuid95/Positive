@@ -83,16 +83,16 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "You got " + values + " points";
+			var resultmsg = "您的測驗結果為" + values + "點";
 			console.log(resultmsg);
 			
-			if(values >= 8 && values <= 26) {
+			if(values >= 8 && values <= 27) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E5%A0%85%E6%8C%81%E5%BA%A6%E4%BD%8E.html";
-			} else if (values > 26 && values <= 36) {
+			} else if (values > 27 && values <= 35) {
 				alert(resultmsg);
 				window.location.href = "../結果/堅持度中庸.html";
-			} else if (values > 36 && values <= 56) {
+			} else if (values > 35 && values <= 56) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E5%A0%85%E6%8C%81%E5%BA%A6%E9%AB%98.html";
 			}
