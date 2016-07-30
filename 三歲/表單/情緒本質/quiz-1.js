@@ -85,7 +85,7 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "You got " + values + " points";
+			var resultmsg = "您的測驗結果為" + values + "點";
 			console.log(resultmsg);
 			
 			if(values >= 10 && values <= 22) {
