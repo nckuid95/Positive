@@ -86,16 +86,16 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "您的測驗結果為" + values + "點";
+			var resultmsg = "You got " + values + " points";
 			console.log(resultmsg);
 			
-			if(values >= 10 && values <= 21) {
+			if(values >= 10 && values <= 18) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E9%81%A9%E6%87%89%E5%BA%A6%E9%AB%98.html";
-			} else if (values > 21 && values <= 34) {
+			} else if (values > 18 && values <= 31) {
 				alert(resultmsg);
 				window.location.href = "../結果/適應度中庸.html";
-			} else if (values > 34 && values <= 66) {
+			} else if (values > 31 && values <= 66) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E9%81%A9%E6%87%89%E5%BA%A6%E4%BD%8E.html";
 			}

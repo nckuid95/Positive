@@ -83,16 +83,16 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "您的測驗結果為" + values + "點";
+			var resultmsg = "You got " + values + " points";
 			console.log(resultmsg);
 			
 			if(values >= 8 && values <= 24) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E6%B4%BB%E5%8B%95%E9%87%8F%E4%BD%8E.html";
-			} else if (values > 24 && values <= 38) {
+			} else if (values > 24 && values <= 37) {
 				alert(resultmsg);
 				window.location.href = "../結果/活動中庸.html";
-			} else if (values > 38 && values <= 56) {
+			} else if (values > 37 && values <= 56) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E6%B4%BB%E5%8B%95%E9%87%8F%E9%AB%98.html";
 			}

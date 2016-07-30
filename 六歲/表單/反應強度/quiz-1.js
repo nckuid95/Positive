@@ -83,7 +83,7 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "您的測驗結果為" + values + "點";
+			var resultmsg = "You got " + values + " points";
 			console.log(resultmsg);
 			
 			if(values >= 8 && values <= 24) {

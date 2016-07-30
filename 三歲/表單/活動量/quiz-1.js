@@ -88,18 +88,18 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "您的測驗結果為" + values + "點";
+			var resultmsg = "You got " + values + " points";
 			console.log(resultmsg);
 			
-			if(values >= 10 && values <= 39) {
+			if(values >= 10 && values <= 30) {
 				alert(resultmsg);
-				window.location.href = "../結果/活動量低.html";
-			} else if (values > 39 && values <= 55) {
+				window.location.href = "../結果/%E6%B4%BB%E5%8B%95%E4%BD%8E.html";
+			} else if (values > 30 && values <= 42) {
 				alert(resultmsg);
 				window.location.href = "../結果/活動中庸.html";
-			} else if (values > 55 && values <= 78) {
+			} else if (values > 42 && values <= 78) {
 				alert(resultmsg);
-				window.location.href = "../結果/活動量高.html";
+				window.location.href = "../結果/%E6%B4%BB%E5%8B%95%E9%AB%98.html";
 			}
 		}
     });

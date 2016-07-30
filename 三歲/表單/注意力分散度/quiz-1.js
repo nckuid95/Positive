@@ -85,16 +85,16 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "您的測驗結果為" + values + "點";
+			var resultmsg = "You got " + values + " points";
 			console.log(resultmsg);
 			
-			if(values >= 10 && values <= 34) {
+			if(values >= 10 && values <= 21) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%98%93%E5%88%86%E6%95%A3.html";
-			} else if (values > 34 && values <= 45) {
+			} else if (values > 21 && values <= 34) {
 				alert(resultmsg);
 				window.location.href = "../結果/注意力中庸.html";
-			} else if (values > 45 && values <= 60) {
+			} else if (values > 34 && values <= 60) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E6%B3%A8%E6%84%8F%E5%8A%9B%E4%B8%8D%E6%98%93%E5%88%86%E6%95%A3.html";
 			}

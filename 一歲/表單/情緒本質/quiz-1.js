@@ -85,13 +85,13 @@
 			if (cat9) { $("#category9").show("fuck"); };            
 			if (cat10) { $("#category10").show("fuck"); };*/
 			
-			var resultmsg = "您的測驗結果為" + values + "點";
+			var resultmsg = "You got " + values + " points";
 			console.log(resultmsg);
 			
 			if(values >= 10 && values <= 28) {
 				alert(resultmsg);
 				window.location.href = "../結果/%E6%83%85%E7%B7%92%E6%9C%AC%E8%B3%AA%E6%AD%A3%E5%90%91.html";
-			} else if (values > 28 && values <= 40) {
+			} else if (values > 28 && values <= 78) {
 				alert(resultmsg);
 				window.location.href = "../結果/情緒本質中庸.html";
 			} else if (values >40 && values <= 60) {
