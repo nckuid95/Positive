@@ -94,11 +94,7 @@
 			if(values >= 10 && values <= 39) {
 				alert(resultmsg);
 				window.location.href = "../結果/活動量低.html";
-<<<<<<< HEAD
-			} else if (values > 30 && values <= 42) {
-=======
 			} else if (values > 39 && values <= 55) {
->>>>>>> master
 				alert(resultmsg);
 				window.location.href = "../結果/活動中庸.html";
 			} else if (values > 55 && values <= 78) {
